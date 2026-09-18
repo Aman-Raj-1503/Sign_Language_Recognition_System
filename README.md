@@ -158,3 +158,8 @@ See `docs/sample_run/sample_confusion_matrix.png` for a sample evaluation output
 ## 9. Future Enhancements
 
 See Section 14 of the project report (`docs/Project_Report.pdf`) for planned improvements, including dynamic (motion-based) gesture support, a larger vocabulary, and text-to-speech output.
+
+## 10. Author
+
+Aman Raj (24BAI10769) 
+
