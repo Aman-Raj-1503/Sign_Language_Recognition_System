@@ -1,0 +1,984 @@
+2026-09-14 12:45:59,120 | INFO     | src.collect_data | Starting data collection for label 'A' (target=150)
+2026-09-14 12:45:59,551 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 12:47:32,480 | INFO     | src.collect_data | Captured sample 1/150 for 'A'
+2026-09-14 12:48:20,083 | INFO     | src.collect_data | Captured sample 2/150 for 'A'
+2026-09-14 12:48:23,823 | INFO     | src.collect_data | Captured sample 3/150 for 'A'
+2026-09-14 12:48:33,284 | INFO     | src.collect_data | Captured sample 4/150 for 'A'
+2026-09-14 12:48:36,703 | INFO     | src.collect_data | Captured sample 5/150 for 'A'
+2026-09-14 12:48:38,114 | INFO     | src.collect_data | Captured sample 6/150 for 'A'
+2026-09-14 12:48:40,610 | INFO     | src.collect_data | Captured sample 7/150 for 'A'
+2026-09-14 12:48:43,971 | INFO     | src.collect_data | Captured sample 8/150 for 'A'
+2026-09-14 12:48:47,524 | INFO     | src.collect_data | Captured sample 9/150 for 'A'
+2026-09-14 12:48:54,647 | INFO     | src.collect_data | Captured sample 10/150 for 'A'
+2026-09-14 12:49:03,799 | INFO     | src.collect_data | Captured sample 11/150 for 'A'
+2026-09-14 12:49:21,415 | INFO     | src.collect_data | Captured sample 12/150 for 'A'
+2026-09-14 12:49:25,968 | INFO     | src.collect_data | Captured sample 13/150 for 'A'
+2026-09-14 12:49:27,201 | INFO     | src.collect_data | Captured sample 14/150 for 'A'
+2026-09-14 12:49:29,334 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 12:49:32,311 | INFO     | src.collect_data | Starting data collection for label 'B' (target=150)
+2026-09-14 12:49:32,728 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 12:50:36,760 | INFO     | src.collect_data | Captured sample 1/150 for 'B'
+2026-09-14 12:50:43,580 | INFO     | src.collect_data | Captured sample 2/150 for 'B'
+2026-09-14 12:50:44,733 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 12:50:47,462 | INFO     | src.collect_data | Starting data collection for label 'HELLO' (target=150)
+2026-09-14 12:50:47,780 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 12:50:59,811 | INFO     | src.collect_data | Captured sample 1/150 for 'HELLO'
+2026-09-14 12:51:06,330 | INFO     | src.collect_data | Captured sample 2/150 for 'HELLO'
+2026-09-14 12:51:07,227 | INFO     | src.collect_data | Captured sample 3/150 for 'HELLO'
+2026-09-14 12:51:08,018 | INFO     | src.collect_data | Captured sample 4/150 for 'HELLO'
+2026-09-14 12:51:08,296 | INFO     | src.collect_data | Captured sample 5/150 for 'HELLO'
+2026-09-14 12:51:08,550 | INFO     | src.collect_data | Captured sample 6/150 for 'HELLO'
+2026-09-14 12:51:08,792 | INFO     | src.collect_data | Captured sample 7/150 for 'HELLO'
+2026-09-14 12:51:09,024 | INFO     | src.collect_data | Captured sample 8/150 for 'HELLO'
+2026-09-14 12:51:09,304 | INFO     | src.collect_data | Captured sample 9/150 for 'HELLO'
+2026-09-14 12:51:09,538 | INFO     | src.collect_data | Captured sample 10/150 for 'HELLO'
+2026-09-14 12:51:13,502 | INFO     | src.collect_data | Captured sample 11/150 for 'HELLO'
+2026-09-14 12:51:15,574 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 12:51:36,990 | INFO     | src.dataset | Loaded dataset: 27 samples across 3 classes
+2026-09-14 12:51:36,991 | INFO     | src.train | Training random_forest on 21 samples (test set: 6 samples)
+2026-09-14 12:51:37,230 | INFO     | src.train | Test accuracy: 1.0000
+2026-09-14 12:51:37,310 | INFO     | src.model | Model saved to C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\models\sign_classifier.joblib
+2026-09-14 12:51:37,312 | INFO     | src.model | Label encoder saved to C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\models\label_encoder.joblib
+2026-09-14 12:51:37,314 | INFO     | src.model | Metrics report written to C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\models\metrics_report.json
+2026-09-14 12:52:21,621 | INFO     | src.dataset | Loaded dataset: 27 samples across 3 classes
+2026-09-14 12:52:21,965 | INFO     | src.evaluate | Confusion matrix saved to C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\models\confusion_matrix.png
+2026-09-14 12:52:21,967 | INFO     | src.evaluate | Evaluation report saved to C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\models\evaluation_report.json
+2026-09-14 12:52:37,688 | INFO     | src.recognize | Loaded model with classes: ['A', 'B', 'HELLO']
+2026-09-14 12:52:38,061 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 12:55:39,071 | INFO     | src.recognize | Loaded model with classes: ['A', 'B', 'HELLO']
+2026-09-14 12:55:39,437 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:01:13,782 | INFO     | src.recognize | Loaded model with classes: ['A', 'B', 'HELLO']
+2026-09-14 13:01:14,158 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:07:45,497 | INFO     | src.collect_data | Starting data collection for label 'A' (target=150)
+2026-09-14 13:07:45,870 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:08:00,715 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:08:49,153 | INFO     | src.collect_data | Starting data collection for label 'A' (target=150)
+2026-09-14 13:08:49,552 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:08:51,588 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:08:54,324 | INFO     | src.collect_data | Starting data collection for label 'B' (target=150)
+2026-09-14 13:08:54,657 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:08:56,377 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:13:21,258 | INFO     | src.collect_data | Starting data collection for label 'A' (target=150)
+2026-09-14 13:13:21,623 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:13:44,731 | INFO     | src.collect_data | Captured sample 1/150 for 'A'
+2026-09-14 13:13:59,574 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:14:02,219 | INFO     | src.collect_data | Starting data collection for label 'B' (target=150)
+2026-09-14 13:14:02,524 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:14:11,234 | INFO     | src.collect_data | Captured sample 1/150 for 'B'
+2026-09-14 13:14:12,894 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:14:15,494 | INFO     | src.collect_data | Starting data collection for label 'C' (target=150)
+2026-09-14 13:14:15,793 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:14:23,953 | INFO     | src.collect_data | Captured sample 1/150 for 'C'
+2026-09-14 13:14:25,367 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:14:28,001 | INFO     | src.collect_data | Starting data collection for label 'D' (target=150)
+2026-09-14 13:14:28,301 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:14:38,987 | INFO     | src.collect_data | Captured sample 1/150 for 'D'
+2026-09-14 13:14:40,702 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:14:43,281 | INFO     | src.collect_data | Starting data collection for label 'E' (target=150)
+2026-09-14 13:14:43,571 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:14:51,944 | INFO     | src.collect_data | Captured sample 1/150 for 'E'
+2026-09-14 13:14:54,162 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:14:56,706 | INFO     | src.collect_data | Starting data collection for label 'F' (target=150)
+2026-09-14 13:14:57,010 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:15:03,442 | INFO     | src.collect_data | Captured sample 1/150 for 'F'
+2026-09-14 13:15:04,622 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:15:07,169 | INFO     | src.collect_data | Starting data collection for label 'G' (target=150)
+2026-09-14 13:15:07,456 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:15:45,438 | INFO     | src.collect_data | Captured sample 1/150 for 'G'
+2026-09-14 13:15:47,649 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:15:50,330 | INFO     | src.collect_data | Starting data collection for label 'H' (target=150)
+2026-09-14 13:15:50,629 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:16:00,167 | INFO     | src.collect_data | Captured sample 1/150 for 'H'
+2026-09-14 13:16:01,364 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:16:03,913 | INFO     | src.collect_data | Starting data collection for label 'I' (target=150)
+2026-09-14 13:16:04,220 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:16:10,895 | INFO     | src.collect_data | Captured sample 1/150 for 'I'
+2026-09-14 13:16:12,522 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:16:15,086 | INFO     | src.collect_data | Starting data collection for label 'YES' (target=150)
+2026-09-14 13:16:15,393 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:16:25,171 | INFO     | src.collect_data | Captured sample 1/150 for 'YES'
+2026-09-14 13:16:26,434 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:16:31,026 | INFO     | src.collect_data | Starting data collection for label 'HELLO' (target=150)
+2026-09-14 13:16:31,325 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:17:04,136 | INFO     | src.collect_data | Captured sample 1/150 for 'HELLO'
+2026-09-14 13:17:05,479 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:18:55,414 | INFO     | src.collect_data | Starting data collection for label 'ILOVEYOU' (target=150)
+2026-09-14 13:18:55,786 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:19:07,518 | INFO     | src.collect_data | Captured sample 1/150 for 'ILOVEYOU'
+2026-09-14 13:19:08,968 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:19:37,104 | INFO     | src.dataset | Loaded dataset: 12 samples across 12 classes
+2026-09-14 13:19:37,106 | ERROR    | __main__ | Command 'train' failed: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+Traceback (most recent call last):
+  File "C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\src\main.py", line 70, in main
+    metrics = train_pipeline(args.model_type, args.test_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\src\train.py", line 36, in train_pipeline
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_split.py", line 2247, in _iter_indices
+    raise ValueError(
+ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2026-09-14 13:19:52,527 | INFO     | src.dataset | Loaded dataset: 12 samples across 12 classes
+2026-09-14 13:19:52,529 | ERROR    | __main__ | Command 'evaluate' failed: y contains previously unseen labels: 'C'
+Traceback (most recent call last):
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\utils\_encode.py", line 225, in _encode
+    return _map_to_integer(values, uniques)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\utils\_encode.py", line 165, in _map_to_integer
+    return np.array([table[v] for v in values])
+                     ~~~~~^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\utils\_encode.py", line 159, in __missing__
+    raise KeyError(key)
+KeyError: 'C'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\src\main.py", line 74, in main
+    result = run_evaluate(args.output_dir)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\src\evaluate.py", line 34, in evaluate
+    y_encoded = label_encoder.transform(y)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\preprocessing\_label.py", line 137, in transform
+    return _encode(y, uniques=self.classes_)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\utils\_encode.py", line 227, in _encode
+    raise ValueError(f"y contains previously unseen labels: {str(e)}")
+ValueError: y contains previously unseen labels: 'C'
+2026-09-14 13:20:42,540 | INFO     | src.recognize | Loaded model with classes: ['A', 'B', 'HELLO']
+2026-09-14 13:20:42,948 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:27:24,815 | INFO     | src.collect_data | Starting data collection for label 'A' (target=150)
+2026-09-14 13:27:25,218 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:27:37,557 | INFO     | src.collect_data | Captured sample 1/150 for 'A'
+2026-09-14 13:27:38,376 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:27:40,952 | INFO     | src.collect_data | Starting data collection for label 'B' (target=150)
+2026-09-14 13:27:41,272 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:27:47,792 | INFO     | src.collect_data | Captured sample 1/150 for 'B'
+2026-09-14 13:27:48,750 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:27:51,370 | INFO     | src.collect_data | Starting data collection for label 'C' (target=150)
+2026-09-14 13:27:51,671 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:27:57,216 | INFO     | src.collect_data | Captured sample 1/150 for 'C'
+2026-09-14 13:27:58,251 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:28:00,766 | INFO     | src.collect_data | Starting data collection for label 'D' (target=150)
+2026-09-14 13:28:01,077 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:28:07,256 | INFO     | src.collect_data | Captured sample 1/150 for 'D'
+2026-09-14 13:28:08,147 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:28:10,775 | INFO     | src.collect_data | Starting data collection for label 'E' (target=150)
+2026-09-14 13:28:11,084 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:28:17,491 | INFO     | src.collect_data | Captured sample 1/150 for 'E'
+2026-09-14 13:28:18,230 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:28:20,848 | INFO     | src.collect_data | Starting data collection for label 'F' (target=150)
+2026-09-14 13:28:21,155 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:28:26,775 | INFO     | src.collect_data | Captured sample 1/150 for 'F'
+2026-09-14 13:28:27,547 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:28:30,107 | INFO     | src.collect_data | Starting data collection for label 'G' (target=150)
+2026-09-14 13:28:30,409 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:28:38,043 | INFO     | src.collect_data | Captured sample 1/150 for 'G'
+2026-09-14 13:28:39,115 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:28:41,679 | INFO     | src.collect_data | Starting data collection for label 'H' (target=150)
+2026-09-14 13:28:41,989 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:28:45,962 | INFO     | src.collect_data | Captured sample 1/150 for 'H'
+2026-09-14 13:28:46,795 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:28:49,426 | INFO     | src.collect_data | Starting data collection for label 'I' (target=150)
+2026-09-14 13:28:49,721 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:28:54,395 | INFO     | src.collect_data | Captured sample 1/150 for 'I'
+2026-09-14 13:28:55,295 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:28:57,857 | INFO     | src.collect_data | Starting data collection for label 'YES' (target=150)
+2026-09-14 13:28:58,151 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:29:06,795 | INFO     | src.collect_data | Captured sample 1/150 for 'YES'
+2026-09-14 13:29:07,570 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:29:10,175 | INFO     | src.collect_data | Starting data collection for label 'ILOVEYOU' (target=150)
+2026-09-14 13:29:10,476 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:29:18,505 | INFO     | src.collect_data | Captured sample 1/150 for 'ILOVEYOU'
+2026-09-14 13:29:19,695 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:29:22,200 | INFO     | src.collect_data | Starting data collection for label 'HELLO' (target=150)
+2026-09-14 13:29:22,498 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:29:26,029 | INFO     | src.collect_data | Captured sample 1/150 for 'HELLO'
+2026-09-14 13:29:27,053 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:29:41,456 | INFO     | src.dataset | Loaded dataset: 24 samples across 12 classes
+2026-09-14 13:29:41,457 | ERROR    | __main__ | Command 'train' failed: The test_size = 5 should be greater or equal to the number of classes = 12
+Traceback (most recent call last):
+  File "C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\src\main.py", line 70, in main
+    metrics = train_pipeline(args.model_type, args.test_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\src\train.py", line 36, in train_pipeline
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_split.py", line 2260, in _iter_indices
+    raise ValueError(
+ValueError: The test_size = 5 should be greater or equal to the number of classes = 12
+2026-09-14 13:30:11,097 | ERROR    | __main__ | Command 'evaluate' failed: Trained model not found. Run `python -m src.main train` first.
+Traceback (most recent call last):
+  File "C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\src\main.py", line 74, in main
+    result = run_evaluate(args.output_dir)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\src\evaluate.py", line 32, in evaluate
+    model, label_encoder = load_model()
+                           ^^^^^^^^^^^^
+  File "C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\src\model.py", line 74, in load_model
+    raise FileNotFoundError(
+FileNotFoundError: Trained model not found. Run `python -m src.main train` first.
+2026-09-14 13:31:09,722 | ERROR    | __main__ | Command 'recognize' failed: Trained model not found. Run `python -m src.main train` first.
+Traceback (most recent call last):
+  File "C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\src\main.py", line 78, in main
+    run_recognition(args.camera, args.smoothing_window)
+  File "C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\src\recognize.py", line 45, in run_recognition
+    model, label_encoder = load_model()
+                           ^^^^^^^^^^^^
+  File "C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\src\model.py", line 74, in load_model
+    raise FileNotFoundError(
+FileNotFoundError: Trained model not found. Run `python -m src.main train` first.
+2026-09-14 13:31:54,385 | INFO     | src.dataset | Loaded dataset: 24 samples across 12 classes
+2026-09-14 13:31:54,386 | ERROR    | __main__ | Command 'train' failed: The test_size = 5 should be greater or equal to the number of classes = 12
+Traceback (most recent call last):
+  File "C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\src\main.py", line 70, in main
+    metrics = train_pipeline(args.model_type, args.test_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\src\train.py", line 36, in train_pipeline
+    X_train, X_test, y_train, y_test = train_test_split(
+                                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_split.py", line 2801, in train_test_split
+    train, test = next(cv.split(X=arrays[0], y=stratify))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_split.py", line 1843, in split
+    for train, test in self._iter_indices(X, y, groups):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Amanraj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\model_selection\_split.py", line 2260, in _iter_indices
+    raise ValueError(
+ValueError: The test_size = 5 should be greater or equal to the number of classes = 12
+2026-09-14 13:37:25,326 | INFO     | src.collect_data | Starting data collection for label 'A' (target=150)
+2026-09-14 13:37:25,671 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:37:33,095 | INFO     | src.collect_data | Captured sample 1/150 for 'A'
+2026-09-14 13:37:33,797 | INFO     | src.collect_data | Captured sample 2/150 for 'A'
+2026-09-14 13:37:34,408 | INFO     | src.collect_data | Captured sample 3/150 for 'A'
+2026-09-14 13:37:34,662 | INFO     | src.collect_data | Captured sample 4/150 for 'A'
+2026-09-14 13:37:34,887 | INFO     | src.collect_data | Captured sample 5/150 for 'A'
+2026-09-14 13:37:35,065 | INFO     | src.collect_data | Captured sample 6/150 for 'A'
+2026-09-14 13:37:35,295 | INFO     | src.collect_data | Captured sample 7/150 for 'A'
+2026-09-14 13:37:35,598 | INFO     | src.collect_data | Captured sample 8/150 for 'A'
+2026-09-14 13:37:35,848 | INFO     | src.collect_data | Captured sample 9/150 for 'A'
+2026-09-14 13:37:36,091 | INFO     | src.collect_data | Captured sample 10/150 for 'A'
+2026-09-14 13:37:36,356 | INFO     | src.collect_data | Captured sample 11/150 for 'A'
+2026-09-14 13:37:36,580 | INFO     | src.collect_data | Captured sample 12/150 for 'A'
+2026-09-14 13:37:36,823 | INFO     | src.collect_data | Captured sample 13/150 for 'A'
+2026-09-14 13:37:37,017 | INFO     | src.collect_data | Captured sample 14/150 for 'A'
+2026-09-14 13:37:37,224 | INFO     | src.collect_data | Captured sample 15/150 for 'A'
+2026-09-14 13:37:37,459 | INFO     | src.collect_data | Captured sample 16/150 for 'A'
+2026-09-14 13:37:37,695 | INFO     | src.collect_data | Captured sample 17/150 for 'A'
+2026-09-14 13:37:37,996 | INFO     | src.collect_data | Captured sample 18/150 for 'A'
+2026-09-14 13:37:38,298 | INFO     | src.collect_data | Captured sample 19/150 for 'A'
+2026-09-14 13:37:38,501 | INFO     | src.collect_data | Captured sample 20/150 for 'A'
+2026-09-14 13:37:38,736 | INFO     | src.collect_data | Captured sample 21/150 for 'A'
+2026-09-14 13:37:40,343 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:37:42,713 | INFO     | src.collect_data | Starting data collection for label 'B' (target=150)
+2026-09-14 13:37:42,990 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:37:45,264 | INFO     | src.collect_data | Captured sample 1/150 for 'B'
+2026-09-14 13:37:45,660 | INFO     | src.collect_data | Captured sample 2/150 for 'B'
+2026-09-14 13:37:45,834 | INFO     | src.collect_data | Captured sample 3/150 for 'B'
+2026-09-14 13:37:46,026 | INFO     | src.collect_data | Captured sample 4/150 for 'B'
+2026-09-14 13:37:46,226 | INFO     | src.collect_data | Captured sample 5/150 for 'B'
+2026-09-14 13:37:46,433 | INFO     | src.collect_data | Captured sample 6/150 for 'B'
+2026-09-14 13:37:46,662 | INFO     | src.collect_data | Captured sample 7/150 for 'B'
+2026-09-14 13:37:46,962 | INFO     | src.collect_data | Captured sample 8/150 for 'B'
+2026-09-14 13:37:47,174 | INFO     | src.collect_data | Captured sample 9/150 for 'B'
+2026-09-14 13:37:47,486 | INFO     | src.collect_data | Captured sample 10/150 for 'B'
+2026-09-14 13:37:47,720 | INFO     | src.collect_data | Captured sample 11/150 for 'B'
+2026-09-14 13:37:47,939 | INFO     | src.collect_data | Captured sample 12/150 for 'B'
+2026-09-14 13:37:48,170 | INFO     | src.collect_data | Captured sample 13/150 for 'B'
+2026-09-14 13:37:48,392 | INFO     | src.collect_data | Captured sample 14/150 for 'B'
+2026-09-14 13:37:48,602 | INFO     | src.collect_data | Captured sample 15/150 for 'B'
+2026-09-14 13:37:48,785 | INFO     | src.collect_data | Captured sample 16/150 for 'B'
+2026-09-14 13:37:48,986 | INFO     | src.collect_data | Captured sample 17/150 for 'B'
+2026-09-14 13:37:49,208 | INFO     | src.collect_data | Captured sample 18/150 for 'B'
+2026-09-14 13:37:49,628 | INFO     | src.collect_data | Captured sample 19/150 for 'B'
+2026-09-14 13:37:49,856 | INFO     | src.collect_data | Captured sample 20/150 for 'B'
+2026-09-14 13:37:50,041 | INFO     | src.collect_data | Captured sample 21/150 for 'B'
+2026-09-14 13:37:50,249 | INFO     | src.collect_data | Captured sample 22/150 for 'B'
+2026-09-14 13:37:50,460 | INFO     | src.collect_data | Captured sample 23/150 for 'B'
+2026-09-14 13:37:50,632 | INFO     | src.collect_data | Captured sample 24/150 for 'B'
+2026-09-14 13:37:52,546 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:37:54,845 | INFO     | src.collect_data | Starting data collection for label 'C' (target=150)
+2026-09-14 13:37:55,154 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:37:57,696 | INFO     | src.collect_data | Captured sample 1/150 for 'C'
+2026-09-14 13:37:57,948 | INFO     | src.collect_data | Captured sample 2/150 for 'C'
+2026-09-14 13:37:58,192 | INFO     | src.collect_data | Captured sample 3/150 for 'C'
+2026-09-14 13:37:58,381 | INFO     | src.collect_data | Captured sample 4/150 for 'C'
+2026-09-14 13:37:58,563 | INFO     | src.collect_data | Captured sample 5/150 for 'C'
+2026-09-14 13:37:58,846 | INFO     | src.collect_data | Captured sample 6/150 for 'C'
+2026-09-14 13:37:59,086 | INFO     | src.collect_data | Captured sample 7/150 for 'C'
+2026-09-14 13:37:59,307 | INFO     | src.collect_data | Captured sample 8/150 for 'C'
+2026-09-14 13:37:59,612 | INFO     | src.collect_data | Captured sample 9/150 for 'C'
+2026-09-14 13:37:59,834 | INFO     | src.collect_data | Captured sample 10/150 for 'C'
+2026-09-14 13:38:00,093 | INFO     | src.collect_data | Captured sample 11/150 for 'C'
+2026-09-14 13:38:00,525 | INFO     | src.collect_data | Captured sample 12/150 for 'C'
+2026-09-14 13:38:00,956 | INFO     | src.collect_data | Captured sample 13/150 for 'C'
+2026-09-14 13:38:01,198 | INFO     | src.collect_data | Captured sample 14/150 for 'C'
+2026-09-14 13:38:01,519 | INFO     | src.collect_data | Captured sample 15/150 for 'C'
+2026-09-14 13:38:01,725 | INFO     | src.collect_data | Captured sample 16/150 for 'C'
+2026-09-14 13:38:02,048 | INFO     | src.collect_data | Captured sample 17/150 for 'C'
+2026-09-14 13:38:02,351 | INFO     | src.collect_data | Captured sample 18/150 for 'C'
+2026-09-14 13:38:02,591 | INFO     | src.collect_data | Captured sample 19/150 for 'C'
+2026-09-14 13:38:02,847 | INFO     | src.collect_data | Captured sample 20/150 for 'C'
+2026-09-14 13:38:03,106 | INFO     | src.collect_data | Captured sample 21/150 for 'C'
+2026-09-14 13:38:03,361 | INFO     | src.collect_data | Captured sample 22/150 for 'C'
+2026-09-14 13:38:03,584 | INFO     | src.collect_data | Captured sample 23/150 for 'C'
+2026-09-14 13:38:03,821 | INFO     | src.collect_data | Captured sample 24/150 for 'C'
+2026-09-14 13:38:04,013 | INFO     | src.collect_data | Captured sample 25/150 for 'C'
+2026-09-14 13:38:04,221 | INFO     | src.collect_data | Captured sample 26/150 for 'C'
+2026-09-14 13:38:04,654 | INFO     | src.collect_data | Captured sample 27/150 for 'C'
+2026-09-14 13:38:04,931 | INFO     | src.collect_data | Captured sample 28/150 for 'C'
+2026-09-14 13:38:05,166 | INFO     | src.collect_data | Captured sample 29/150 for 'C'
+2026-09-14 13:38:05,424 | INFO     | src.collect_data | Captured sample 30/150 for 'C'
+2026-09-14 13:38:05,702 | INFO     | src.collect_data | Captured sample 31/150 for 'C'
+2026-09-14 13:38:05,927 | INFO     | src.collect_data | Captured sample 32/150 for 'C'
+2026-09-14 13:38:06,180 | INFO     | src.collect_data | Captured sample 33/150 for 'C'
+2026-09-14 13:38:06,445 | INFO     | src.collect_data | Captured sample 34/150 for 'C'
+2026-09-14 13:38:06,990 | INFO     | src.collect_data | Captured sample 35/150 for 'C'
+2026-09-14 13:38:07,243 | INFO     | src.collect_data | Captured sample 36/150 for 'C'
+2026-09-14 13:38:07,488 | INFO     | src.collect_data | Captured sample 37/150 for 'C'
+2026-09-14 13:38:07,696 | INFO     | src.collect_data | Captured sample 38/150 for 'C'
+2026-09-14 13:38:07,947 | INFO     | src.collect_data | Captured sample 39/150 for 'C'
+2026-09-14 13:38:08,143 | INFO     | src.collect_data | Captured sample 40/150 for 'C'
+2026-09-14 13:38:08,380 | INFO     | src.collect_data | Captured sample 41/150 for 'C'
+2026-09-14 13:38:08,578 | INFO     | src.collect_data | Captured sample 42/150 for 'C'
+2026-09-14 13:38:08,811 | INFO     | src.collect_data | Captured sample 43/150 for 'C'
+2026-09-14 13:38:09,083 | INFO     | src.collect_data | Captured sample 44/150 for 'C'
+2026-09-14 13:38:09,408 | INFO     | src.collect_data | Captured sample 45/150 for 'C'
+2026-09-14 13:38:09,658 | INFO     | src.collect_data | Captured sample 46/150 for 'C'
+2026-09-14 13:38:09,926 | INFO     | src.collect_data | Captured sample 47/150 for 'C'
+2026-09-14 13:38:10,181 | INFO     | src.collect_data | Captured sample 48/150 for 'C'
+2026-09-14 13:38:10,460 | INFO     | src.collect_data | Captured sample 49/150 for 'C'
+2026-09-14 13:38:10,748 | INFO     | src.collect_data | Captured sample 50/150 for 'C'
+2026-09-14 13:38:11,040 | INFO     | src.collect_data | Captured sample 51/150 for 'C'
+2026-09-14 13:38:11,295 | INFO     | src.collect_data | Captured sample 52/150 for 'C'
+2026-09-14 13:38:11,558 | INFO     | src.collect_data | Captured sample 53/150 for 'C'
+2026-09-14 13:38:11,894 | INFO     | src.collect_data | Captured sample 54/150 for 'C'
+2026-09-14 13:38:12,224 | INFO     | src.collect_data | Captured sample 55/150 for 'C'
+2026-09-14 13:38:12,592 | INFO     | src.collect_data | Captured sample 56/150 for 'C'
+2026-09-14 13:38:13,488 | INFO     | src.collect_data | Captured sample 57/150 for 'C'
+2026-09-14 13:38:13,740 | INFO     | src.collect_data | Captured sample 58/150 for 'C'
+2026-09-14 13:38:14,131 | INFO     | src.collect_data | Captured sample 59/150 for 'C'
+2026-09-14 13:38:14,587 | INFO     | src.collect_data | Captured sample 60/150 for 'C'
+2026-09-14 13:38:15,262 | INFO     | src.collect_data | Captured sample 61/150 for 'C'
+2026-09-14 13:38:15,685 | INFO     | src.collect_data | Captured sample 62/150 for 'C'
+2026-09-14 13:38:16,044 | INFO     | src.collect_data | Captured sample 63/150 for 'C'
+2026-09-14 13:38:17,348 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:38:19,687 | INFO     | src.collect_data | Starting data collection for label 'D' (target=150)
+2026-09-14 13:38:19,953 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:38:22,507 | INFO     | src.collect_data | Captured sample 1/150 for 'D'
+2026-09-14 13:38:22,803 | INFO     | src.collect_data | Captured sample 2/150 for 'D'
+2026-09-14 13:38:23,099 | INFO     | src.collect_data | Captured sample 3/150 for 'D'
+2026-09-14 13:38:23,435 | INFO     | src.collect_data | Captured sample 4/150 for 'D'
+2026-09-14 13:38:23,695 | INFO     | src.collect_data | Captured sample 5/150 for 'D'
+2026-09-14 13:38:23,989 | INFO     | src.collect_data | Captured sample 6/150 for 'D'
+2026-09-14 13:38:24,212 | INFO     | src.collect_data | Captured sample 7/150 for 'D'
+2026-09-14 13:38:24,564 | INFO     | src.collect_data | Captured sample 8/150 for 'D'
+2026-09-14 13:38:24,773 | INFO     | src.collect_data | Captured sample 9/150 for 'D'
+2026-09-14 13:38:25,058 | INFO     | src.collect_data | Captured sample 10/150 for 'D'
+2026-09-14 13:38:25,343 | INFO     | src.collect_data | Captured sample 11/150 for 'D'
+2026-09-14 13:38:25,650 | INFO     | src.collect_data | Captured sample 12/150 for 'D'
+2026-09-14 13:38:25,925 | INFO     | src.collect_data | Captured sample 13/150 for 'D'
+2026-09-14 13:38:26,229 | INFO     | src.collect_data | Captured sample 14/150 for 'D'
+2026-09-14 13:38:26,578 | INFO     | src.collect_data | Captured sample 15/150 for 'D'
+2026-09-14 13:38:26,859 | INFO     | src.collect_data | Captured sample 16/150 for 'D'
+2026-09-14 13:38:27,138 | INFO     | src.collect_data | Captured sample 17/150 for 'D'
+2026-09-14 13:38:27,463 | INFO     | src.collect_data | Captured sample 18/150 for 'D'
+2026-09-14 13:38:27,790 | INFO     | src.collect_data | Captured sample 19/150 for 'D'
+2026-09-14 13:38:28,082 | INFO     | src.collect_data | Captured sample 20/150 for 'D'
+2026-09-14 13:38:28,411 | INFO     | src.collect_data | Captured sample 21/150 for 'D'
+2026-09-14 13:38:28,759 | INFO     | src.collect_data | Captured sample 22/150 for 'D'
+2026-09-14 13:38:29,192 | INFO     | src.collect_data | Captured sample 23/150 for 'D'
+2026-09-14 13:38:29,456 | INFO     | src.collect_data | Captured sample 24/150 for 'D'
+2026-09-14 13:38:29,724 | INFO     | src.collect_data | Captured sample 25/150 for 'D'
+2026-09-14 13:38:29,999 | INFO     | src.collect_data | Captured sample 26/150 for 'D'
+2026-09-14 13:38:30,234 | INFO     | src.collect_data | Captured sample 27/150 for 'D'
+2026-09-14 13:38:30,453 | INFO     | src.collect_data | Captured sample 28/150 for 'D'
+2026-09-14 13:38:30,755 | INFO     | src.collect_data | Captured sample 29/150 for 'D'
+2026-09-14 13:38:31,030 | INFO     | src.collect_data | Captured sample 30/150 for 'D'
+2026-09-14 13:38:31,250 | INFO     | src.collect_data | Captured sample 31/150 for 'D'
+2026-09-14 13:38:31,455 | INFO     | src.collect_data | Captured sample 32/150 for 'D'
+2026-09-14 13:38:31,684 | INFO     | src.collect_data | Captured sample 33/150 for 'D'
+2026-09-14 13:38:31,925 | INFO     | src.collect_data | Captured sample 34/150 for 'D'
+2026-09-14 13:38:32,164 | INFO     | src.collect_data | Captured sample 35/150 for 'D'
+2026-09-14 13:38:33,185 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:38:35,525 | INFO     | src.collect_data | Starting data collection for label 'E' (target=150)
+2026-09-14 13:38:35,801 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:38:38,049 | INFO     | src.collect_data | Captured sample 1/150 for 'E'
+2026-09-14 13:38:38,343 | INFO     | src.collect_data | Captured sample 2/150 for 'E'
+2026-09-14 13:38:38,599 | INFO     | src.collect_data | Captured sample 3/150 for 'E'
+2026-09-14 13:38:38,810 | INFO     | src.collect_data | Captured sample 4/150 for 'E'
+2026-09-14 13:38:39,059 | INFO     | src.collect_data | Captured sample 5/150 for 'E'
+2026-09-14 13:38:39,323 | INFO     | src.collect_data | Captured sample 6/150 for 'E'
+2026-09-14 13:38:39,547 | INFO     | src.collect_data | Captured sample 7/150 for 'E'
+2026-09-14 13:38:39,771 | INFO     | src.collect_data | Captured sample 8/150 for 'E'
+2026-09-14 13:38:39,928 | INFO     | src.collect_data | Captured sample 9/150 for 'E'
+2026-09-14 13:38:40,233 | INFO     | src.collect_data | Captured sample 10/150 for 'E'
+2026-09-14 13:38:40,456 | INFO     | src.collect_data | Captured sample 11/150 for 'E'
+2026-09-14 13:38:40,717 | INFO     | src.collect_data | Captured sample 12/150 for 'E'
+2026-09-14 13:38:41,020 | INFO     | src.collect_data | Captured sample 13/150 for 'E'
+2026-09-14 13:38:41,239 | INFO     | src.collect_data | Captured sample 14/150 for 'E'
+2026-09-14 13:38:41,481 | INFO     | src.collect_data | Captured sample 15/150 for 'E'
+2026-09-14 13:38:41,720 | INFO     | src.collect_data | Captured sample 16/150 for 'E'
+2026-09-14 13:38:41,977 | INFO     | src.collect_data | Captured sample 17/150 for 'E'
+2026-09-14 13:38:42,429 | INFO     | src.collect_data | Captured sample 18/150 for 'E'
+2026-09-14 13:38:42,679 | INFO     | src.collect_data | Captured sample 19/150 for 'E'
+2026-09-14 13:38:42,965 | INFO     | src.collect_data | Captured sample 20/150 for 'E'
+2026-09-14 13:38:43,241 | INFO     | src.collect_data | Captured sample 21/150 for 'E'
+2026-09-14 13:38:43,734 | INFO     | src.collect_data | Captured sample 22/150 for 'E'
+2026-09-14 13:38:43,944 | INFO     | src.collect_data | Captured sample 23/150 for 'E'
+2026-09-14 13:38:44,234 | INFO     | src.collect_data | Captured sample 24/150 for 'E'
+2026-09-14 13:38:44,518 | INFO     | src.collect_data | Captured sample 25/150 for 'E'
+2026-09-14 13:38:44,873 | INFO     | src.collect_data | Captured sample 26/150 for 'E'
+2026-09-14 13:38:45,230 | INFO     | src.collect_data | Captured sample 27/150 for 'E'
+2026-09-14 13:38:45,674 | INFO     | src.collect_data | Captured sample 28/150 for 'E'
+2026-09-14 13:38:45,983 | INFO     | src.collect_data | Captured sample 29/150 for 'E'
+2026-09-14 13:38:46,245 | INFO     | src.collect_data | Captured sample 30/150 for 'E'
+2026-09-14 13:38:46,587 | INFO     | src.collect_data | Captured sample 31/150 for 'E'
+2026-09-14 13:38:46,843 | INFO     | src.collect_data | Captured sample 32/150 for 'E'
+2026-09-14 13:38:47,172 | INFO     | src.collect_data | Captured sample 33/150 for 'E'
+2026-09-14 13:38:47,616 | INFO     | src.collect_data | Captured sample 34/150 for 'E'
+2026-09-14 13:38:47,943 | INFO     | src.collect_data | Captured sample 35/150 for 'E'
+2026-09-14 13:38:48,238 | INFO     | src.collect_data | Captured sample 36/150 for 'E'
+2026-09-14 13:38:48,503 | INFO     | src.collect_data | Captured sample 37/150 for 'E'
+2026-09-14 13:38:48,720 | INFO     | src.collect_data | Captured sample 38/150 for 'E'
+2026-09-14 13:38:49,019 | INFO     | src.collect_data | Captured sample 39/150 for 'E'
+2026-09-14 13:38:49,250 | INFO     | src.collect_data | Captured sample 40/150 for 'E'
+2026-09-14 13:38:49,541 | INFO     | src.collect_data | Captured sample 41/150 for 'E'
+2026-09-14 13:38:49,753 | INFO     | src.collect_data | Captured sample 42/150 for 'E'
+2026-09-14 13:38:50,031 | INFO     | src.collect_data | Captured sample 43/150 for 'E'
+2026-09-14 13:38:50,226 | INFO     | src.collect_data | Captured sample 44/150 for 'E'
+2026-09-14 13:38:50,664 | INFO     | src.collect_data | Captured sample 45/150 for 'E'
+2026-09-14 13:38:50,951 | INFO     | src.collect_data | Captured sample 46/150 for 'E'
+2026-09-14 13:38:51,143 | INFO     | src.collect_data | Captured sample 47/150 for 'E'
+2026-09-14 13:38:51,448 | INFO     | src.collect_data | Captured sample 48/150 for 'E'
+2026-09-14 13:38:51,653 | INFO     | src.collect_data | Captured sample 49/150 for 'E'
+2026-09-14 13:38:52,469 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:38:54,764 | INFO     | src.collect_data | Starting data collection for label 'F' (target=150)
+2026-09-14 13:38:55,041 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:38:56,635 | INFO     | src.collect_data | Captured sample 1/150 for 'F'
+2026-09-14 13:38:56,884 | INFO     | src.collect_data | Captured sample 2/150 for 'F'
+2026-09-14 13:38:57,183 | INFO     | src.collect_data | Captured sample 3/150 for 'F'
+2026-09-14 13:38:57,409 | INFO     | src.collect_data | Captured sample 4/150 for 'F'
+2026-09-14 13:38:57,610 | INFO     | src.collect_data | Captured sample 5/150 for 'F'
+2026-09-14 13:38:57,832 | INFO     | src.collect_data | Captured sample 6/150 for 'F'
+2026-09-14 13:38:58,014 | INFO     | src.collect_data | Captured sample 7/150 for 'F'
+2026-09-14 13:38:58,201 | INFO     | src.collect_data | Captured sample 8/150 for 'F'
+2026-09-14 13:38:58,419 | INFO     | src.collect_data | Captured sample 9/150 for 'F'
+2026-09-14 13:38:58,704 | INFO     | src.collect_data | Captured sample 10/150 for 'F'
+2026-09-14 13:38:58,938 | INFO     | src.collect_data | Captured sample 11/150 for 'F'
+2026-09-14 13:38:59,225 | INFO     | src.collect_data | Captured sample 12/150 for 'F'
+2026-09-14 13:38:59,645 | INFO     | src.collect_data | Captured sample 13/150 for 'F'
+2026-09-14 13:38:59,930 | INFO     | src.collect_data | Captured sample 14/150 for 'F'
+2026-09-14 13:39:00,191 | INFO     | src.collect_data | Captured sample 15/150 for 'F'
+2026-09-14 13:39:00,455 | INFO     | src.collect_data | Captured sample 16/150 for 'F'
+2026-09-14 13:39:00,706 | INFO     | src.collect_data | Captured sample 17/150 for 'F'
+2026-09-14 13:39:00,937 | INFO     | src.collect_data | Captured sample 18/150 for 'F'
+2026-09-14 13:39:01,132 | INFO     | src.collect_data | Captured sample 19/150 for 'F'
+2026-09-14 13:39:01,326 | INFO     | src.collect_data | Captured sample 20/150 for 'F'
+2026-09-14 13:39:01,516 | INFO     | src.collect_data | Captured sample 21/150 for 'F'
+2026-09-14 13:39:01,673 | INFO     | src.collect_data | Captured sample 22/150 for 'F'
+2026-09-14 13:39:01,818 | INFO     | src.collect_data | Captured sample 23/150 for 'F'
+2026-09-14 13:39:01,979 | INFO     | src.collect_data | Captured sample 24/150 for 'F'
+2026-09-14 13:39:02,168 | INFO     | src.collect_data | Captured sample 25/150 for 'F'
+2026-09-14 13:39:02,339 | INFO     | src.collect_data | Captured sample 26/150 for 'F'
+2026-09-14 13:39:02,650 | INFO     | src.collect_data | Captured sample 27/150 for 'F'
+2026-09-14 13:39:02,843 | INFO     | src.collect_data | Captured sample 28/150 for 'F'
+2026-09-14 13:39:03,080 | INFO     | src.collect_data | Captured sample 29/150 for 'F'
+2026-09-14 13:39:03,307 | INFO     | src.collect_data | Captured sample 30/150 for 'F'
+2026-09-14 13:39:03,543 | INFO     | src.collect_data | Captured sample 31/150 for 'F'
+2026-09-14 13:39:03,803 | INFO     | src.collect_data | Captured sample 32/150 for 'F'
+2026-09-14 13:39:04,011 | INFO     | src.collect_data | Captured sample 33/150 for 'F'
+2026-09-14 13:39:04,181 | INFO     | src.collect_data | Captured sample 34/150 for 'F'
+2026-09-14 13:39:04,348 | INFO     | src.collect_data | Captured sample 35/150 for 'F'
+2026-09-14 13:39:04,556 | INFO     | src.collect_data | Captured sample 36/150 for 'F'
+2026-09-14 13:39:04,860 | INFO     | src.collect_data | Captured sample 37/150 for 'F'
+2026-09-14 13:39:05,145 | INFO     | src.collect_data | Captured sample 38/150 for 'F'
+2026-09-14 13:39:05,433 | INFO     | src.collect_data | Captured sample 39/150 for 'F'
+2026-09-14 13:39:05,707 | INFO     | src.collect_data | Captured sample 40/150 for 'F'
+2026-09-14 13:39:05,929 | INFO     | src.collect_data | Captured sample 41/150 for 'F'
+2026-09-14 13:39:06,200 | INFO     | src.collect_data | Captured sample 42/150 for 'F'
+2026-09-14 13:39:06,642 | INFO     | src.collect_data | Captured sample 43/150 for 'F'
+2026-09-14 13:39:06,912 | INFO     | src.collect_data | Captured sample 44/150 for 'F'
+2026-09-14 13:39:07,163 | INFO     | src.collect_data | Captured sample 45/150 for 'F'
+2026-09-14 13:39:07,407 | INFO     | src.collect_data | Captured sample 46/150 for 'F'
+2026-09-14 13:39:07,718 | INFO     | src.collect_data | Captured sample 47/150 for 'F'
+2026-09-14 13:39:07,966 | INFO     | src.collect_data | Captured sample 48/150 for 'F'
+2026-09-14 13:39:08,269 | INFO     | src.collect_data | Captured sample 49/150 for 'F'
+2026-09-14 13:39:08,468 | INFO     | src.collect_data | Captured sample 50/150 for 'F'
+2026-09-14 13:39:09,131 | INFO     | src.collect_data | Captured sample 51/150 for 'F'
+2026-09-14 13:39:09,377 | INFO     | src.collect_data | Captured sample 52/150 for 'F'
+2026-09-14 13:39:09,641 | INFO     | src.collect_data | Captured sample 53/150 for 'F'
+2026-09-14 13:39:10,012 | INFO     | src.collect_data | Captured sample 54/150 for 'F'
+2026-09-14 13:39:10,987 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:39:13,397 | INFO     | src.collect_data | Starting data collection for label 'G' (target=150)
+2026-09-14 13:39:13,685 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:39:16,545 | INFO     | src.collect_data | Captured sample 1/150 for 'G'
+2026-09-14 13:39:16,823 | INFO     | src.collect_data | Captured sample 2/150 for 'G'
+2026-09-14 13:39:17,155 | INFO     | src.collect_data | Captured sample 3/150 for 'G'
+2026-09-14 13:39:17,490 | INFO     | src.collect_data | Captured sample 4/150 for 'G'
+2026-09-14 13:39:17,765 | INFO     | src.collect_data | Captured sample 5/150 for 'G'
+2026-09-14 13:39:18,115 | INFO     | src.collect_data | Captured sample 6/150 for 'G'
+2026-09-14 13:39:18,420 | INFO     | src.collect_data | Captured sample 7/150 for 'G'
+2026-09-14 13:39:18,767 | INFO     | src.collect_data | Captured sample 8/150 for 'G'
+2026-09-14 13:39:19,321 | INFO     | src.collect_data | Captured sample 9/150 for 'G'
+2026-09-14 13:39:20,062 | INFO     | src.collect_data | Captured sample 10/150 for 'G'
+2026-09-14 13:39:20,388 | INFO     | src.collect_data | Captured sample 11/150 for 'G'
+2026-09-14 13:39:22,266 | INFO     | src.collect_data | Captured sample 12/150 for 'G'
+2026-09-14 13:39:22,934 | INFO     | src.collect_data | Captured sample 13/150 for 'G'
+2026-09-14 13:39:23,530 | INFO     | src.collect_data | Captured sample 14/150 for 'G'
+2026-09-14 13:39:24,080 | INFO     | src.collect_data | Captured sample 15/150 for 'G'
+2026-09-14 13:39:25,039 | INFO     | src.collect_data | Captured sample 16/150 for 'G'
+2026-09-14 13:39:26,028 | INFO     | src.collect_data | Captured sample 17/150 for 'G'
+2026-09-14 13:39:27,348 | INFO     | src.collect_data | Captured sample 18/150 for 'G'
+2026-09-14 13:39:28,050 | INFO     | src.collect_data | Captured sample 19/150 for 'G'
+2026-09-14 13:39:28,620 | INFO     | src.collect_data | Captured sample 20/150 for 'G'
+2026-09-14 13:39:29,119 | INFO     | src.collect_data | Captured sample 21/150 for 'G'
+2026-09-14 13:39:29,863 | INFO     | src.collect_data | Captured sample 22/150 for 'G'
+2026-09-14 13:39:30,494 | INFO     | src.collect_data | Captured sample 23/150 for 'G'
+2026-09-14 13:39:30,884 | INFO     | src.collect_data | Captured sample 24/150 for 'G'
+2026-09-14 13:39:31,217 | INFO     | src.collect_data | Captured sample 25/150 for 'G'
+2026-09-14 13:39:31,489 | INFO     | src.collect_data | Captured sample 26/150 for 'G'
+2026-09-14 13:39:31,733 | INFO     | src.collect_data | Captured sample 27/150 for 'G'
+2026-09-14 13:39:31,987 | INFO     | src.collect_data | Captured sample 28/150 for 'G'
+2026-09-14 13:39:32,229 | INFO     | src.collect_data | Captured sample 29/150 for 'G'
+2026-09-14 13:39:32,430 | INFO     | src.collect_data | Captured sample 30/150 for 'G'
+2026-09-14 13:39:32,755 | INFO     | src.collect_data | Captured sample 31/150 for 'G'
+2026-09-14 13:39:33,410 | INFO     | src.collect_data | Captured sample 32/150 for 'G'
+2026-09-14 13:39:33,691 | INFO     | src.collect_data | Captured sample 33/150 for 'G'
+2026-09-14 13:39:33,896 | INFO     | src.collect_data | Captured sample 34/150 for 'G'
+2026-09-14 13:39:34,192 | INFO     | src.collect_data | Captured sample 35/150 for 'G'
+2026-09-14 13:39:34,582 | INFO     | src.collect_data | Captured sample 36/150 for 'G'
+2026-09-14 13:39:34,835 | INFO     | src.collect_data | Captured sample 37/150 for 'G'
+2026-09-14 13:39:35,064 | INFO     | src.collect_data | Captured sample 38/150 for 'G'
+2026-09-14 13:39:35,158 | INFO     | src.collect_data | Captured sample 39/150 for 'G'
+2026-09-14 13:39:35,333 | INFO     | src.collect_data | Captured sample 40/150 for 'G'
+2026-09-14 13:39:35,559 | INFO     | src.collect_data | Captured sample 41/150 for 'G'
+2026-09-14 13:39:35,828 | INFO     | src.collect_data | Captured sample 42/150 for 'G'
+2026-09-14 13:39:36,033 | INFO     | src.collect_data | Captured sample 43/150 for 'G'
+2026-09-14 13:39:36,229 | INFO     | src.collect_data | Captured sample 44/150 for 'G'
+2026-09-14 13:39:36,532 | INFO     | src.collect_data | Captured sample 45/150 for 'G'
+2026-09-14 13:39:36,715 | INFO     | src.collect_data | Captured sample 46/150 for 'G'
+2026-09-14 13:39:36,978 | INFO     | src.collect_data | Captured sample 47/150 for 'G'
+2026-09-14 13:39:37,222 | INFO     | src.collect_data | Captured sample 48/150 for 'G'
+2026-09-14 13:39:37,489 | INFO     | src.collect_data | Captured sample 49/150 for 'G'
+2026-09-14 13:39:38,328 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:39:40,694 | INFO     | src.collect_data | Starting data collection for label 'H' (target=150)
+2026-09-14 13:39:40,978 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:39:42,063 | INFO     | src.collect_data | Captured sample 1/150 for 'H'
+2026-09-14 13:39:42,342 | INFO     | src.collect_data | Captured sample 2/150 for 'H'
+2026-09-14 13:39:42,624 | INFO     | src.collect_data | Captured sample 3/150 for 'H'
+2026-09-14 13:39:42,916 | INFO     | src.collect_data | Captured sample 4/150 for 'H'
+2026-09-14 13:39:43,201 | INFO     | src.collect_data | Captured sample 5/150 for 'H'
+2026-09-14 13:39:43,434 | INFO     | src.collect_data | Captured sample 6/150 for 'H'
+2026-09-14 13:39:43,633 | INFO     | src.collect_data | Captured sample 7/150 for 'H'
+2026-09-14 13:39:44,024 | INFO     | src.collect_data | Captured sample 8/150 for 'H'
+2026-09-14 13:39:44,254 | INFO     | src.collect_data | Captured sample 9/150 for 'H'
+2026-09-14 13:39:44,455 | INFO     | src.collect_data | Captured sample 10/150 for 'H'
+2026-09-14 13:39:44,757 | INFO     | src.collect_data | Captured sample 11/150 for 'H'
+2026-09-14 13:39:44,964 | INFO     | src.collect_data | Captured sample 12/150 for 'H'
+2026-09-14 13:39:45,127 | INFO     | src.collect_data | Captured sample 13/150 for 'H'
+2026-09-14 13:39:45,336 | INFO     | src.collect_data | Captured sample 14/150 for 'H'
+2026-09-14 13:39:45,621 | INFO     | src.collect_data | Captured sample 15/150 for 'H'
+2026-09-14 13:39:45,945 | INFO     | src.collect_data | Captured sample 16/150 for 'H'
+2026-09-14 13:39:46,101 | INFO     | src.collect_data | Captured sample 17/150 for 'H'
+2026-09-14 13:39:46,329 | INFO     | src.collect_data | Captured sample 18/150 for 'H'
+2026-09-14 13:39:46,634 | INFO     | src.collect_data | Captured sample 19/150 for 'H'
+2026-09-14 13:39:46,844 | INFO     | src.collect_data | Captured sample 20/150 for 'H'
+2026-09-14 13:39:47,330 | INFO     | src.collect_data | Captured sample 21/150 for 'H'
+2026-09-14 13:39:47,924 | INFO     | src.collect_data | Captured sample 22/150 for 'H'
+2026-09-14 13:39:48,190 | INFO     | src.collect_data | Captured sample 23/150 for 'H'
+2026-09-14 13:39:48,421 | INFO     | src.collect_data | Captured sample 24/150 for 'H'
+2026-09-14 13:39:48,866 | INFO     | src.collect_data | Captured sample 25/150 for 'H'
+2026-09-14 13:39:49,158 | INFO     | src.collect_data | Captured sample 26/150 for 'H'
+2026-09-14 13:39:49,989 | INFO     | src.collect_data | Captured sample 27/150 for 'H'
+2026-09-14 13:39:50,248 | INFO     | src.collect_data | Captured sample 28/150 for 'H'
+2026-09-14 13:39:50,528 | INFO     | src.collect_data | Captured sample 29/150 for 'H'
+2026-09-14 13:39:50,756 | INFO     | src.collect_data | Captured sample 30/150 for 'H'
+2026-09-14 13:39:50,999 | INFO     | src.collect_data | Captured sample 31/150 for 'H'
+2026-09-14 13:39:51,525 | INFO     | src.collect_data | Captured sample 32/150 for 'H'
+2026-09-14 13:39:51,809 | INFO     | src.collect_data | Captured sample 33/150 for 'H'
+2026-09-14 13:39:52,105 | INFO     | src.collect_data | Captured sample 34/150 for 'H'
+2026-09-14 13:39:52,390 | INFO     | src.collect_data | Captured sample 35/150 for 'H'
+2026-09-14 13:39:52,580 | INFO     | src.collect_data | Captured sample 36/150 for 'H'
+2026-09-14 13:39:52,835 | INFO     | src.collect_data | Captured sample 37/150 for 'H'
+2026-09-14 13:39:53,158 | INFO     | src.collect_data | Captured sample 38/150 for 'H'
+2026-09-14 13:39:53,447 | INFO     | src.collect_data | Captured sample 39/150 for 'H'
+2026-09-14 13:39:54,035 | INFO     | src.collect_data | Captured sample 40/150 for 'H'
+2026-09-14 13:39:54,361 | INFO     | src.collect_data | Captured sample 41/150 for 'H'
+2026-09-14 13:39:54,618 | INFO     | src.collect_data | Captured sample 42/150 for 'H'
+2026-09-14 13:39:54,882 | INFO     | src.collect_data | Captured sample 43/150 for 'H'
+2026-09-14 13:39:55,100 | INFO     | src.collect_data | Captured sample 44/150 for 'H'
+2026-09-14 13:39:55,318 | INFO     | src.collect_data | Captured sample 45/150 for 'H'
+2026-09-14 13:39:55,682 | INFO     | src.collect_data | Captured sample 46/150 for 'H'
+2026-09-14 13:39:55,959 | INFO     | src.collect_data | Captured sample 47/150 for 'H'
+2026-09-14 13:39:56,213 | INFO     | src.collect_data | Captured sample 48/150 for 'H'
+2026-09-14 13:39:56,485 | INFO     | src.collect_data | Captured sample 49/150 for 'H'
+2026-09-14 13:39:56,630 | INFO     | src.collect_data | Captured sample 50/150 for 'H'
+2026-09-14 13:39:56,885 | INFO     | src.collect_data | Captured sample 51/150 for 'H'
+2026-09-14 13:39:57,129 | INFO     | src.collect_data | Captured sample 52/150 for 'H'
+2026-09-14 13:39:57,555 | INFO     | src.collect_data | Captured sample 53/150 for 'H'
+2026-09-14 13:39:57,826 | INFO     | src.collect_data | Captured sample 54/150 for 'H'
+2026-09-14 13:39:58,050 | INFO     | src.collect_data | Captured sample 55/150 for 'H'
+2026-09-14 13:39:58,271 | INFO     | src.collect_data | Captured sample 56/150 for 'H'
+2026-09-14 13:39:58,487 | INFO     | src.collect_data | Captured sample 57/150 for 'H'
+2026-09-14 13:39:58,853 | INFO     | src.collect_data | Captured sample 58/150 for 'H'
+2026-09-14 13:39:59,175 | INFO     | src.collect_data | Captured sample 59/150 for 'H'
+2026-09-14 13:39:59,439 | INFO     | src.collect_data | Captured sample 60/150 for 'H'
+2026-09-14 13:39:59,688 | INFO     | src.collect_data | Captured sample 61/150 for 'H'
+2026-09-14 13:40:00,514 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:40:02,820 | INFO     | src.collect_data | Starting data collection for label 'I' (target=150)
+2026-09-14 13:40:03,090 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:40:08,703 | INFO     | src.collect_data | Captured sample 1/150 for 'I'
+2026-09-14 13:40:08,906 | INFO     | src.collect_data | Captured sample 2/150 for 'I'
+2026-09-14 13:40:09,122 | INFO     | src.collect_data | Captured sample 3/150 for 'I'
+2026-09-14 13:40:09,323 | INFO     | src.collect_data | Captured sample 4/150 for 'I'
+2026-09-14 13:40:09,530 | INFO     | src.collect_data | Captured sample 5/150 for 'I'
+2026-09-14 13:40:09,732 | INFO     | src.collect_data | Captured sample 6/150 for 'I'
+2026-09-14 13:40:09,972 | INFO     | src.collect_data | Captured sample 7/150 for 'I'
+2026-09-14 13:40:10,123 | INFO     | src.collect_data | Captured sample 8/150 for 'I'
+2026-09-14 13:40:10,357 | INFO     | src.collect_data | Captured sample 9/150 for 'I'
+2026-09-14 13:40:10,538 | INFO     | src.collect_data | Captured sample 10/150 for 'I'
+2026-09-14 13:40:10,723 | INFO     | src.collect_data | Captured sample 11/150 for 'I'
+2026-09-14 13:40:10,908 | INFO     | src.collect_data | Captured sample 12/150 for 'I'
+2026-09-14 13:40:11,236 | INFO     | src.collect_data | Captured sample 13/150 for 'I'
+2026-09-14 13:40:11,400 | INFO     | src.collect_data | Captured sample 14/150 for 'I'
+2026-09-14 13:40:11,690 | INFO     | src.collect_data | Captured sample 15/150 for 'I'
+2026-09-14 13:40:11,897 | INFO     | src.collect_data | Captured sample 16/150 for 'I'
+2026-09-14 13:40:12,136 | INFO     | src.collect_data | Captured sample 17/150 for 'I'
+2026-09-14 13:40:12,383 | INFO     | src.collect_data | Captured sample 18/150 for 'I'
+2026-09-14 13:40:12,705 | INFO     | src.collect_data | Captured sample 19/150 for 'I'
+2026-09-14 13:40:12,899 | INFO     | src.collect_data | Captured sample 20/150 for 'I'
+2026-09-14 13:40:13,129 | INFO     | src.collect_data | Captured sample 21/150 for 'I'
+2026-09-14 13:40:13,337 | INFO     | src.collect_data | Captured sample 22/150 for 'I'
+2026-09-14 13:40:13,566 | INFO     | src.collect_data | Captured sample 23/150 for 'I'
+2026-09-14 13:40:13,812 | INFO     | src.collect_data | Captured sample 24/150 for 'I'
+2026-09-14 13:40:14,041 | INFO     | src.collect_data | Captured sample 25/150 for 'I'
+2026-09-14 13:40:14,233 | INFO     | src.collect_data | Captured sample 26/150 for 'I'
+2026-09-14 13:40:14,467 | INFO     | src.collect_data | Captured sample 27/150 for 'I'
+2026-09-14 13:40:14,658 | INFO     | src.collect_data | Captured sample 28/150 for 'I'
+2026-09-14 13:40:14,867 | INFO     | src.collect_data | Captured sample 29/150 for 'I'
+2026-09-14 13:40:15,097 | INFO     | src.collect_data | Captured sample 30/150 for 'I'
+2026-09-14 13:40:15,430 | INFO     | src.collect_data | Captured sample 31/150 for 'I'
+2026-09-14 13:40:15,655 | INFO     | src.collect_data | Captured sample 32/150 for 'I'
+2026-09-14 13:40:15,878 | INFO     | src.collect_data | Captured sample 33/150 for 'I'
+2026-09-14 13:40:16,240 | INFO     | src.collect_data | Captured sample 34/150 for 'I'
+2026-09-14 13:40:16,476 | INFO     | src.collect_data | Captured sample 35/150 for 'I'
+2026-09-14 13:40:16,647 | INFO     | src.collect_data | Captured sample 36/150 for 'I'
+2026-09-14 13:40:16,947 | INFO     | src.collect_data | Captured sample 37/150 for 'I'
+2026-09-14 13:40:17,200 | INFO     | src.collect_data | Captured sample 38/150 for 'I'
+2026-09-14 13:40:17,423 | INFO     | src.collect_data | Captured sample 39/150 for 'I'
+2026-09-14 13:40:17,668 | INFO     | src.collect_data | Captured sample 40/150 for 'I'
+2026-09-14 13:40:17,890 | INFO     | src.collect_data | Captured sample 41/150 for 'I'
+2026-09-14 13:40:18,162 | INFO     | src.collect_data | Captured sample 42/150 for 'I'
+2026-09-14 13:40:18,411 | INFO     | src.collect_data | Captured sample 43/150 for 'I'
+2026-09-14 13:40:18,632 | INFO     | src.collect_data | Captured sample 44/150 for 'I'
+2026-09-14 13:40:18,753 | INFO     | src.collect_data | Captured sample 45/150 for 'I'
+2026-09-14 13:40:18,929 | INFO     | src.collect_data | Captured sample 46/150 for 'I'
+2026-09-14 13:40:19,093 | INFO     | src.collect_data | Captured sample 47/150 for 'I'
+2026-09-14 13:40:19,283 | INFO     | src.collect_data | Captured sample 48/150 for 'I'
+2026-09-14 13:40:19,574 | INFO     | src.collect_data | Captured sample 49/150 for 'I'
+2026-09-14 13:40:19,800 | INFO     | src.collect_data | Captured sample 50/150 for 'I'
+2026-09-14 13:40:20,042 | INFO     | src.collect_data | Captured sample 51/150 for 'I'
+2026-09-14 13:40:20,218 | INFO     | src.collect_data | Captured sample 52/150 for 'I'
+2026-09-14 13:40:20,503 | INFO     | src.collect_data | Captured sample 53/150 for 'I'
+2026-09-14 13:40:20,765 | INFO     | src.collect_data | Captured sample 54/150 for 'I'
+2026-09-14 13:40:20,972 | INFO     | src.collect_data | Captured sample 55/150 for 'I'
+2026-09-14 13:40:21,202 | INFO     | src.collect_data | Captured sample 56/150 for 'I'
+2026-09-14 13:40:21,492 | INFO     | src.collect_data | Captured sample 57/150 for 'I'
+2026-09-14 13:40:21,734 | INFO     | src.collect_data | Captured sample 58/150 for 'I'
+2026-09-14 13:40:21,953 | INFO     | src.collect_data | Captured sample 59/150 for 'I'
+2026-09-14 13:40:22,158 | INFO     | src.collect_data | Captured sample 60/150 for 'I'
+2026-09-14 13:40:22,340 | INFO     | src.collect_data | Captured sample 61/150 for 'I'
+2026-09-14 13:40:22,531 | INFO     | src.collect_data | Captured sample 62/150 for 'I'
+2026-09-14 13:40:22,691 | INFO     | src.collect_data | Captured sample 63/150 for 'I'
+2026-09-14 13:40:23,988 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:40:26,340 | INFO     | src.collect_data | Starting data collection for label 'YES' (target=150)
+2026-09-14 13:40:26,618 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:40:53,681 | INFO     | src.collect_data | Captured sample 1/150 for 'YES'
+2026-09-14 13:40:53,878 | INFO     | src.collect_data | Captured sample 2/150 for 'YES'
+2026-09-14 13:40:54,101 | INFO     | src.collect_data | Captured sample 3/150 for 'YES'
+2026-09-14 13:40:54,319 | INFO     | src.collect_data | Captured sample 4/150 for 'YES'
+2026-09-14 13:40:54,598 | INFO     | src.collect_data | Captured sample 5/150 for 'YES'
+2026-09-14 13:40:54,838 | INFO     | src.collect_data | Captured sample 6/150 for 'YES'
+2026-09-14 13:40:55,099 | INFO     | src.collect_data | Captured sample 7/150 for 'YES'
+2026-09-14 13:40:55,338 | INFO     | src.collect_data | Captured sample 8/150 for 'YES'
+2026-09-14 13:40:55,577 | INFO     | src.collect_data | Captured sample 9/150 for 'YES'
+2026-09-14 13:40:55,814 | INFO     | src.collect_data | Captured sample 10/150 for 'YES'
+2026-09-14 13:40:56,086 | INFO     | src.collect_data | Captured sample 11/150 for 'YES'
+2026-09-14 13:40:56,367 | INFO     | src.collect_data | Captured sample 12/150 for 'YES'
+2026-09-14 13:40:56,688 | INFO     | src.collect_data | Captured sample 13/150 for 'YES'
+2026-09-14 13:40:56,907 | INFO     | src.collect_data | Captured sample 14/150 for 'YES'
+2026-09-14 13:40:57,465 | INFO     | src.collect_data | Captured sample 15/150 for 'YES'
+2026-09-14 13:40:57,765 | INFO     | src.collect_data | Captured sample 16/150 for 'YES'
+2026-09-14 13:40:58,247 | INFO     | src.collect_data | Captured sample 17/150 for 'YES'
+2026-09-14 13:40:58,540 | INFO     | src.collect_data | Captured sample 18/150 for 'YES'
+2026-09-14 13:40:58,846 | INFO     | src.collect_data | Captured sample 19/150 for 'YES'
+2026-09-14 13:40:59,065 | INFO     | src.collect_data | Captured sample 20/150 for 'YES'
+2026-09-14 13:40:59,310 | INFO     | src.collect_data | Captured sample 21/150 for 'YES'
+2026-09-14 13:40:59,561 | INFO     | src.collect_data | Captured sample 22/150 for 'YES'
+2026-09-14 13:40:59,798 | INFO     | src.collect_data | Captured sample 23/150 for 'YES'
+2026-09-14 13:41:00,059 | INFO     | src.collect_data | Captured sample 24/150 for 'YES'
+2026-09-14 13:41:00,343 | INFO     | src.collect_data | Captured sample 25/150 for 'YES'
+2026-09-14 13:41:00,920 | INFO     | src.collect_data | Captured sample 26/150 for 'YES'
+2026-09-14 13:41:01,143 | INFO     | src.collect_data | Captured sample 27/150 for 'YES'
+2026-09-14 13:41:01,355 | INFO     | src.collect_data | Captured sample 28/150 for 'YES'
+2026-09-14 13:41:01,606 | INFO     | src.collect_data | Captured sample 29/150 for 'YES'
+2026-09-14 13:41:01,793 | INFO     | src.collect_data | Captured sample 30/150 for 'YES'
+2026-09-14 13:41:02,008 | INFO     | src.collect_data | Captured sample 31/150 for 'YES'
+2026-09-14 13:41:02,218 | INFO     | src.collect_data | Captured sample 32/150 for 'YES'
+2026-09-14 13:41:02,453 | INFO     | src.collect_data | Captured sample 33/150 for 'YES'
+2026-09-14 13:41:02,679 | INFO     | src.collect_data | Captured sample 34/150 for 'YES'
+2026-09-14 13:41:02,876 | INFO     | src.collect_data | Captured sample 35/150 for 'YES'
+2026-09-14 13:41:03,096 | INFO     | src.collect_data | Captured sample 36/150 for 'YES'
+2026-09-14 13:41:03,327 | INFO     | src.collect_data | Captured sample 37/150 for 'YES'
+2026-09-14 13:41:03,510 | INFO     | src.collect_data | Captured sample 38/150 for 'YES'
+2026-09-14 13:41:03,690 | INFO     | src.collect_data | Captured sample 39/150 for 'YES'
+2026-09-14 13:41:03,866 | INFO     | src.collect_data | Captured sample 40/150 for 'YES'
+2026-09-14 13:41:04,117 | INFO     | src.collect_data | Captured sample 41/150 for 'YES'
+2026-09-14 13:41:04,361 | INFO     | src.collect_data | Captured sample 42/150 for 'YES'
+2026-09-14 13:41:04,471 | INFO     | src.collect_data | Captured sample 43/150 for 'YES'
+2026-09-14 13:41:04,724 | INFO     | src.collect_data | Captured sample 44/150 for 'YES'
+2026-09-14 13:41:04,991 | INFO     | src.collect_data | Captured sample 45/150 for 'YES'
+2026-09-14 13:41:05,164 | INFO     | src.collect_data | Captured sample 46/150 for 'YES'
+2026-09-14 13:41:05,322 | INFO     | src.collect_data | Captured sample 47/150 for 'YES'
+2026-09-14 13:41:05,496 | INFO     | src.collect_data | Captured sample 48/150 for 'YES'
+2026-09-14 13:41:05,702 | INFO     | src.collect_data | Captured sample 49/150 for 'YES'
+2026-09-14 13:41:05,921 | INFO     | src.collect_data | Captured sample 50/150 for 'YES'
+2026-09-14 13:41:06,094 | INFO     | src.collect_data | Captured sample 51/150 for 'YES'
+2026-09-14 13:41:06,297 | INFO     | src.collect_data | Captured sample 52/150 for 'YES'
+2026-09-14 13:41:06,510 | INFO     | src.collect_data | Captured sample 53/150 for 'YES'
+2026-09-14 13:41:06,714 | INFO     | src.collect_data | Captured sample 54/150 for 'YES'
+2026-09-14 13:41:06,930 | INFO     | src.collect_data | Captured sample 55/150 for 'YES'
+2026-09-14 13:41:07,254 | INFO     | src.collect_data | Captured sample 56/150 for 'YES'
+2026-09-14 13:41:07,508 | INFO     | src.collect_data | Captured sample 57/150 for 'YES'
+2026-09-14 13:41:07,990 | INFO     | src.collect_data | Captured sample 58/150 for 'YES'
+2026-09-14 13:41:08,166 | INFO     | src.collect_data | Captured sample 59/150 for 'YES'
+2026-09-14 13:41:08,394 | INFO     | src.collect_data | Captured sample 60/150 for 'YES'
+2026-09-14 13:41:08,600 | INFO     | src.collect_data | Captured sample 61/150 for 'YES'
+2026-09-14 13:41:08,902 | INFO     | src.collect_data | Captured sample 62/150 for 'YES'
+2026-09-14 13:41:09,125 | INFO     | src.collect_data | Captured sample 63/150 for 'YES'
+2026-09-14 13:41:09,370 | INFO     | src.collect_data | Captured sample 64/150 for 'YES'
+2026-09-14 13:41:09,603 | INFO     | src.collect_data | Captured sample 65/150 for 'YES'
+2026-09-14 13:41:09,868 | INFO     | src.collect_data | Captured sample 66/150 for 'YES'
+2026-09-14 13:41:10,055 | INFO     | src.collect_data | Captured sample 67/150 for 'YES'
+2026-09-14 13:41:10,275 | INFO     | src.collect_data | Captured sample 68/150 for 'YES'
+2026-09-14 13:41:10,521 | INFO     | src.collect_data | Captured sample 69/150 for 'YES'
+2026-09-14 13:41:10,711 | INFO     | src.collect_data | Captured sample 70/150 for 'YES'
+2026-09-14 13:41:11,031 | INFO     | src.collect_data | Captured sample 71/150 for 'YES'
+2026-09-14 13:41:11,309 | INFO     | src.collect_data | Captured sample 72/150 for 'YES'
+2026-09-14 13:41:11,975 | INFO     | src.collect_data | Captured sample 73/150 for 'YES'
+2026-09-14 13:41:12,230 | INFO     | src.collect_data | Captured sample 74/150 for 'YES'
+2026-09-14 13:41:12,496 | INFO     | src.collect_data | Captured sample 75/150 for 'YES'
+2026-09-14 13:41:12,764 | INFO     | src.collect_data | Captured sample 76/150 for 'YES'
+2026-09-14 13:41:12,994 | INFO     | src.collect_data | Captured sample 77/150 for 'YES'
+2026-09-14 13:41:13,258 | INFO     | src.collect_data | Captured sample 78/150 for 'YES'
+2026-09-14 13:41:13,525 | INFO     | src.collect_data | Captured sample 79/150 for 'YES'
+2026-09-14 13:41:13,787 | INFO     | src.collect_data | Captured sample 80/150 for 'YES'
+2026-09-14 13:41:14,090 | INFO     | src.collect_data | Captured sample 81/150 for 'YES'
+2026-09-14 13:41:14,343 | INFO     | src.collect_data | Captured sample 82/150 for 'YES'
+2026-09-14 13:41:14,560 | INFO     | src.collect_data | Captured sample 83/150 for 'YES'
+2026-09-14 13:41:15,335 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:41:17,727 | INFO     | src.collect_data | Starting data collection for label 'ILOVEYOU' (target=150)
+2026-09-14 13:41:18,013 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:41:21,387 | INFO     | src.collect_data | Captured sample 1/150 for 'ILOVEYOU'
+2026-09-14 13:41:21,536 | INFO     | src.collect_data | Captured sample 2/150 for 'ILOVEYOU'
+2026-09-14 13:41:21,739 | INFO     | src.collect_data | Captured sample 3/150 for 'ILOVEYOU'
+2026-09-14 13:41:21,941 | INFO     | src.collect_data | Captured sample 4/150 for 'ILOVEYOU'
+2026-09-14 13:41:22,175 | INFO     | src.collect_data | Captured sample 5/150 for 'ILOVEYOU'
+2026-09-14 13:41:22,395 | INFO     | src.collect_data | Captured sample 6/150 for 'ILOVEYOU'
+2026-09-14 13:41:22,600 | INFO     | src.collect_data | Captured sample 7/150 for 'ILOVEYOU'
+2026-09-14 13:41:22,825 | INFO     | src.collect_data | Captured sample 8/150 for 'ILOVEYOU'
+2026-09-14 13:41:23,049 | INFO     | src.collect_data | Captured sample 9/150 for 'ILOVEYOU'
+2026-09-14 13:41:23,299 | INFO     | src.collect_data | Captured sample 10/150 for 'ILOVEYOU'
+2026-09-14 13:41:23,612 | INFO     | src.collect_data | Captured sample 11/150 for 'ILOVEYOU'
+2026-09-14 13:41:23,777 | INFO     | src.collect_data | Captured sample 12/150 for 'ILOVEYOU'
+2026-09-14 13:41:24,027 | INFO     | src.collect_data | Captured sample 13/150 for 'ILOVEYOU'
+2026-09-14 13:41:24,302 | INFO     | src.collect_data | Captured sample 14/150 for 'ILOVEYOU'
+2026-09-14 13:41:24,520 | INFO     | src.collect_data | Captured sample 15/150 for 'ILOVEYOU'
+2026-09-14 13:41:24,740 | INFO     | src.collect_data | Captured sample 16/150 for 'ILOVEYOU'
+2026-09-14 13:41:25,143 | INFO     | src.collect_data | Captured sample 17/150 for 'ILOVEYOU'
+2026-09-14 13:41:25,337 | INFO     | src.collect_data | Captured sample 18/150 for 'ILOVEYOU'
+2026-09-14 13:41:25,546 | INFO     | src.collect_data | Captured sample 19/150 for 'ILOVEYOU'
+2026-09-14 13:41:25,793 | INFO     | src.collect_data | Captured sample 20/150 for 'ILOVEYOU'
+2026-09-14 13:41:26,301 | INFO     | src.collect_data | Captured sample 21/150 for 'ILOVEYOU'
+2026-09-14 13:41:26,329 | INFO     | src.collect_data | Captured sample 22/150 for 'ILOVEYOU'
+2026-09-14 13:41:26,372 | INFO     | src.collect_data | Captured sample 23/150 for 'ILOVEYOU'
+2026-09-14 13:41:26,409 | INFO     | src.collect_data | Captured sample 24/150 for 'ILOVEYOU'
+2026-09-14 13:41:26,488 | INFO     | src.collect_data | Captured sample 25/150 for 'ILOVEYOU'
+2026-09-14 13:41:26,705 | INFO     | src.collect_data | Captured sample 26/150 for 'ILOVEYOU'
+2026-09-14 13:41:26,971 | INFO     | src.collect_data | Captured sample 27/150 for 'ILOVEYOU'
+2026-09-14 13:41:27,203 | INFO     | src.collect_data | Captured sample 28/150 for 'ILOVEYOU'
+2026-09-14 13:41:27,484 | INFO     | src.collect_data | Captured sample 29/150 for 'ILOVEYOU'
+2026-09-14 13:41:27,690 | INFO     | src.collect_data | Captured sample 30/150 for 'ILOVEYOU'
+2026-09-14 13:41:27,961 | INFO     | src.collect_data | Captured sample 31/150 for 'ILOVEYOU'
+2026-09-14 13:41:28,193 | INFO     | src.collect_data | Captured sample 32/150 for 'ILOVEYOU'
+2026-09-14 13:41:28,435 | INFO     | src.collect_data | Captured sample 33/150 for 'ILOVEYOU'
+2026-09-14 13:41:28,617 | INFO     | src.collect_data | Captured sample 34/150 for 'ILOVEYOU'
+2026-09-14 13:41:28,838 | INFO     | src.collect_data | Captured sample 35/150 for 'ILOVEYOU'
+2026-09-14 13:41:29,399 | INFO     | src.collect_data | Captured sample 36/150 for 'ILOVEYOU'
+2026-09-14 13:41:29,638 | INFO     | src.collect_data | Captured sample 37/150 for 'ILOVEYOU'
+2026-09-14 13:41:29,832 | INFO     | src.collect_data | Captured sample 38/150 for 'ILOVEYOU'
+2026-09-14 13:41:30,043 | INFO     | src.collect_data | Captured sample 39/150 for 'ILOVEYOU'
+2026-09-14 13:41:30,426 | INFO     | src.collect_data | Captured sample 40/150 for 'ILOVEYOU'
+2026-09-14 13:41:30,667 | INFO     | src.collect_data | Captured sample 41/150 for 'ILOVEYOU'
+2026-09-14 13:41:30,828 | INFO     | src.collect_data | Captured sample 42/150 for 'ILOVEYOU'
+2026-09-14 13:41:31,015 | INFO     | src.collect_data | Captured sample 43/150 for 'ILOVEYOU'
+2026-09-14 13:41:31,233 | INFO     | src.collect_data | Captured sample 44/150 for 'ILOVEYOU'
+2026-09-14 13:41:31,403 | INFO     | src.collect_data | Captured sample 45/150 for 'ILOVEYOU'
+2026-09-14 13:41:31,562 | INFO     | src.collect_data | Captured sample 46/150 for 'ILOVEYOU'
+2026-09-14 13:41:31,744 | INFO     | src.collect_data | Captured sample 47/150 for 'ILOVEYOU'
+2026-09-14 13:41:31,953 | INFO     | src.collect_data | Captured sample 48/150 for 'ILOVEYOU'
+2026-09-14 13:41:32,135 | INFO     | src.collect_data | Captured sample 49/150 for 'ILOVEYOU'
+2026-09-14 13:41:32,315 | INFO     | src.collect_data | Captured sample 50/150 for 'ILOVEYOU'
+2026-09-14 13:41:32,489 | INFO     | src.collect_data | Captured sample 51/150 for 'ILOVEYOU'
+2026-09-14 13:41:32,665 | INFO     | src.collect_data | Captured sample 52/150 for 'ILOVEYOU'
+2026-09-14 13:41:32,858 | INFO     | src.collect_data | Captured sample 53/150 for 'ILOVEYOU'
+2026-09-14 13:41:33,065 | INFO     | src.collect_data | Captured sample 54/150 for 'ILOVEYOU'
+2026-09-14 13:41:33,271 | INFO     | src.collect_data | Captured sample 55/150 for 'ILOVEYOU'
+2026-09-14 13:41:33,557 | INFO     | src.collect_data | Captured sample 56/150 for 'ILOVEYOU'
+2026-09-14 13:41:33,775 | INFO     | src.collect_data | Captured sample 57/150 for 'ILOVEYOU'
+2026-09-14 13:41:33,903 | INFO     | src.collect_data | Captured sample 58/150 for 'ILOVEYOU'
+2026-09-14 13:41:34,125 | INFO     | src.collect_data | Captured sample 59/150 for 'ILOVEYOU'
+2026-09-14 13:41:34,351 | INFO     | src.collect_data | Captured sample 60/150 for 'ILOVEYOU'
+2026-09-14 13:41:34,497 | INFO     | src.collect_data | Captured sample 61/150 for 'ILOVEYOU'
+2026-09-14 13:41:35,034 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:41:37,375 | INFO     | src.collect_data | Starting data collection for label 'HELLO' (target=150)
+2026-09-14 13:41:37,713 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-14 13:41:38,754 | INFO     | src.collect_data | Captured sample 1/150 for 'HELLO'
+2026-09-14 13:41:38,979 | INFO     | src.collect_data | Captured sample 2/150 for 'HELLO'
+2026-09-14 13:41:39,160 | INFO     | src.collect_data | Captured sample 3/150 for 'HELLO'
+2026-09-14 13:41:39,286 | INFO     | src.collect_data | Captured sample 4/150 for 'HELLO'
+2026-09-14 13:41:39,424 | INFO     | src.collect_data | Captured sample 5/150 for 'HELLO'
+2026-09-14 13:41:39,591 | INFO     | src.collect_data | Captured sample 6/150 for 'HELLO'
+2026-09-14 13:41:39,787 | INFO     | src.collect_data | Captured sample 7/150 for 'HELLO'
+2026-09-14 13:41:39,989 | INFO     | src.collect_data | Captured sample 8/150 for 'HELLO'
+2026-09-14 13:41:40,263 | INFO     | src.collect_data | Captured sample 9/150 for 'HELLO'
+2026-09-14 13:41:40,453 | INFO     | src.collect_data | Captured sample 10/150 for 'HELLO'
+2026-09-14 13:41:40,678 | INFO     | src.collect_data | Captured sample 11/150 for 'HELLO'
+2026-09-14 13:41:40,915 | INFO     | src.collect_data | Captured sample 12/150 for 'HELLO'
+2026-09-14 13:41:41,132 | INFO     | src.collect_data | Captured sample 13/150 for 'HELLO'
+2026-09-14 13:41:41,382 | INFO     | src.collect_data | Captured sample 14/150 for 'HELLO'
+2026-09-14 13:41:41,783 | INFO     | src.collect_data | Captured sample 15/150 for 'HELLO'
+2026-09-14 13:41:41,986 | INFO     | src.collect_data | Captured sample 16/150 for 'HELLO'
+2026-09-14 13:41:42,218 | INFO     | src.collect_data | Captured sample 17/150 for 'HELLO'
+2026-09-14 13:41:42,406 | INFO     | src.collect_data | Captured sample 18/150 for 'HELLO'
+2026-09-14 13:41:42,615 | INFO     | src.collect_data | Captured sample 19/150 for 'HELLO'
+2026-09-14 13:41:42,851 | INFO     | src.collect_data | Captured sample 20/150 for 'HELLO'
+2026-09-14 13:41:43,063 | INFO     | src.collect_data | Captured sample 21/150 for 'HELLO'
+2026-09-14 13:41:43,289 | INFO     | src.collect_data | Captured sample 22/150 for 'HELLO'
+2026-09-14 13:41:43,509 | INFO     | src.collect_data | Captured sample 23/150 for 'HELLO'
+2026-09-14 13:41:43,701 | INFO     | src.collect_data | Captured sample 24/150 for 'HELLO'
+2026-09-14 13:41:43,864 | INFO     | src.collect_data | Captured sample 25/150 for 'HELLO'
+2026-09-14 13:41:44,119 | INFO     | src.collect_data | Captured sample 26/150 for 'HELLO'
+2026-09-14 13:41:44,293 | INFO     | src.collect_data | Captured sample 27/150 for 'HELLO'
+2026-09-14 13:41:44,482 | INFO     | src.collect_data | Captured sample 28/150 for 'HELLO'
+2026-09-14 13:41:44,756 | INFO     | src.collect_data | Captured sample 29/150 for 'HELLO'
+2026-09-14 13:41:44,982 | INFO     | src.collect_data | Captured sample 30/150 for 'HELLO'
+2026-09-14 13:41:45,167 | INFO     | src.collect_data | Captured sample 31/150 for 'HELLO'
+2026-09-14 13:41:45,352 | INFO     | src.collect_data | Captured sample 32/150 for 'HELLO'
+2026-09-14 13:41:45,557 | INFO     | src.collect_data | Captured sample 33/150 for 'HELLO'
+2026-09-14 13:41:45,761 | INFO     | src.collect_data | Captured sample 34/150 for 'HELLO'
+2026-09-14 13:41:45,987 | INFO     | src.collect_data | Captured sample 35/150 for 'HELLO'
+2026-09-14 13:41:46,198 | INFO     | src.collect_data | Captured sample 36/150 for 'HELLO'
+2026-09-14 13:41:46,507 | INFO     | src.collect_data | Captured sample 37/150 for 'HELLO'
+2026-09-14 13:41:46,703 | INFO     | src.collect_data | Captured sample 38/150 for 'HELLO'
+2026-09-14 13:41:46,924 | INFO     | src.collect_data | Captured sample 39/150 for 'HELLO'
+2026-09-14 13:41:47,161 | INFO     | src.collect_data | Captured sample 40/150 for 'HELLO'
+2026-09-14 13:41:47,939 | INFO     | src.collect_data | Captured sample 41/150 for 'HELLO'
+2026-09-14 13:41:48,152 | INFO     | src.collect_data | Captured sample 42/150 for 'HELLO'
+2026-09-14 13:41:48,329 | INFO     | src.collect_data | Captured sample 43/150 for 'HELLO'
+2026-09-14 13:41:48,520 | INFO     | src.collect_data | Captured sample 44/150 for 'HELLO'
+2026-09-14 13:41:48,722 | INFO     | src.collect_data | Captured sample 45/150 for 'HELLO'
+2026-09-14 13:41:48,950 | INFO     | src.collect_data | Captured sample 46/150 for 'HELLO'
+2026-09-14 13:41:49,192 | INFO     | src.collect_data | Captured sample 47/150 for 'HELLO'
+2026-09-14 13:41:49,391 | INFO     | src.collect_data | Captured sample 48/150 for 'HELLO'
+2026-09-14 13:41:49,684 | INFO     | src.collect_data | Captured sample 49/150 for 'HELLO'
+2026-09-14 13:41:49,890 | INFO     | src.collect_data | Captured sample 50/150 for 'HELLO'
+2026-09-14 13:41:50,113 | INFO     | src.collect_data | Captured sample 51/150 for 'HELLO'
+2026-09-14 13:41:50,407 | INFO     | src.collect_data | Captured sample 52/150 for 'HELLO'
+2026-09-14 13:41:50,661 | INFO     | src.collect_data | Captured sample 53/150 for 'HELLO'
+2026-09-14 13:41:50,852 | INFO     | src.collect_data | Captured sample 54/150 for 'HELLO'
+2026-09-14 13:41:51,096 | INFO     | src.collect_data | Captured sample 55/150 for 'HELLO'
+2026-09-14 13:41:51,386 | INFO     | src.collect_data | Captured sample 56/150 for 'HELLO'
+2026-09-14 13:41:51,588 | INFO     | src.collect_data | Captured sample 57/150 for 'HELLO'
+2026-09-14 13:41:51,920 | INFO     | src.collect_data | Captured sample 58/150 for 'HELLO'
+2026-09-14 13:41:52,176 | INFO     | src.collect_data | Captured sample 59/150 for 'HELLO'
+2026-09-14 13:41:52,373 | INFO     | src.collect_data | Captured sample 60/150 for 'HELLO'
+2026-09-14 13:41:52,582 | INFO     | src.collect_data | Captured sample 61/150 for 'HELLO'
+2026-09-14 13:41:52,882 | INFO     | src.collect_data | Captured sample 62/150 for 'HELLO'
+2026-09-14 13:41:53,108 | INFO     | src.collect_data | Captured sample 63/150 for 'HELLO'
+2026-09-14 13:41:53,320 | INFO     | src.collect_data | Captured sample 64/150 for 'HELLO'
+2026-09-14 13:41:53,530 | INFO     | src.collect_data | Captured sample 65/150 for 'HELLO'
+2026-09-14 13:41:53,732 | INFO     | src.collect_data | Captured sample 66/150 for 'HELLO'
+2026-09-14 13:41:53,966 | INFO     | src.collect_data | Captured sample 67/150 for 'HELLO'
+2026-09-14 13:41:54,149 | INFO     | src.collect_data | Captured sample 68/150 for 'HELLO'
+2026-09-14 13:41:54,424 | INFO     | src.collect_data | Captured sample 69/150 for 'HELLO'
+2026-09-14 13:41:54,629 | INFO     | src.collect_data | Captured sample 70/150 for 'HELLO'
+2026-09-14 13:41:54,914 | INFO     | src.collect_data | Captured sample 71/150 for 'HELLO'
+2026-09-14 13:41:55,127 | INFO     | src.collect_data | Captured sample 72/150 for 'HELLO'
+2026-09-14 13:41:55,351 | INFO     | src.collect_data | Captured sample 73/150 for 'HELLO'
+2026-09-14 13:41:55,649 | INFO     | src.collect_data | Captured sample 74/150 for 'HELLO'
+2026-09-14 13:41:55,864 | INFO     | src.collect_data | Captured sample 75/150 for 'HELLO'
+2026-09-14 13:41:56,081 | INFO     | src.collect_data | Captured sample 76/150 for 'HELLO'
+2026-09-14 13:41:56,330 | INFO     | src.collect_data | Captured sample 77/150 for 'HELLO'
+2026-09-14 13:41:56,529 | INFO     | src.collect_data | Captured sample 78/150 for 'HELLO'
+2026-09-14 13:41:56,737 | INFO     | src.collect_data | Captured sample 79/150 for 'HELLO'
+2026-09-14 13:41:56,956 | INFO     | src.collect_data | Captured sample 80/150 for 'HELLO'
+2026-09-14 13:41:57,157 | INFO     | src.collect_data | Captured sample 81/150 for 'HELLO'
+2026-09-14 13:41:57,411 | INFO     | src.collect_data | Captured sample 82/150 for 'HELLO'
+2026-09-14 13:41:57,587 | INFO     | src.collect_data | Captured sample 83/150 for 'HELLO'
+2026-09-14 13:41:57,793 | INFO     | src.collect_data | Captured sample 84/150 for 'HELLO'
+2026-09-14 13:41:57,987 | INFO     | src.collect_data | Captured sample 85/150 for 'HELLO'
+2026-09-14 13:41:58,215 | INFO     | src.collect_data | Captured sample 86/150 for 'HELLO'
+2026-09-14 13:41:58,417 | INFO     | src.collect_data | Captured sample 87/150 for 'HELLO'
+2026-09-14 13:41:58,655 | INFO     | src.collect_data | Captured sample 88/150 for 'HELLO'
+2026-09-14 13:41:58,831 | INFO     | src.collect_data | Captured sample 89/150 for 'HELLO'
+2026-09-14 13:41:59,074 | INFO     | src.collect_data | Captured sample 90/150 for 'HELLO'
+2026-09-14 13:41:59,327 | INFO     | src.collect_data | Captured sample 91/150 for 'HELLO'
+2026-09-14 13:41:59,567 | INFO     | src.collect_data | Captured sample 92/150 for 'HELLO'
+2026-09-14 13:41:59,747 | INFO     | src.collect_data | Captured sample 93/150 for 'HELLO'
+2026-09-14 13:41:59,921 | INFO     | src.collect_data | Captured sample 94/150 for 'HELLO'
+2026-09-14 13:42:00,089 | INFO     | src.collect_data | Captured sample 95/150 for 'HELLO'
+2026-09-14 13:42:00,257 | INFO     | src.collect_data | Captured sample 96/150 for 'HELLO'
+2026-09-14 13:42:00,854 | INFO     | src.collect_data | Collection stopped early by user.
+2026-09-14 13:42:14,456 | INFO     | src.dataset | Loaded dataset: 683 samples across 12 classes
+2026-09-14 13:42:14,458 | INFO     | src.train | Training random_forest on 546 samples (test set: 137 samples)
+2026-09-14 13:42:14,729 | INFO     | src.train | Test accuracy: 1.0000
+2026-09-14 13:42:14,806 | INFO     | src.model | Model saved to C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\models\sign_classifier.joblib
+2026-09-14 13:42:14,806 | INFO     | src.model | Label encoder saved to C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\models\label_encoder.joblib
+2026-09-14 13:42:14,807 | INFO     | src.model | Metrics report written to C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\models\metrics_report.json
+2026-09-14 13:42:26,545 | INFO     | src.dataset | Loaded dataset: 683 samples across 12 classes
+2026-09-14 13:42:26,774 | INFO     | src.evaluate | Confusion matrix saved to C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\models\confusion_matrix.png
+2026-09-14 13:42:26,775 | INFO     | src.evaluate | Evaluation report saved to C:\Users\Amanraj\OneDrive\Aman Raj\OneDrive\Desktop\VIT\Computer Vision\BYOP\sign-language-recognition\sign-language-recognition\models\evaluation_report.json
+2026-09-14 13:42:37,448 | INFO     | src.recognize | Loaded model with classes: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'HELLO', 'I', 'ILOVEYOU', 'YES']
+2026-09-14 13:42:37,844 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-16 10:50:44,994 | INFO     | src.recognize | Loaded model with classes: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'HELLO', 'I', 'ILOVEYOU', 'YES']
+2026-09-16 10:50:45,528 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-16 11:05:01,288 | INFO     | src.recognize | Loaded model with classes: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'HELLO', 'I', 'ILOVEYOU', 'YES']
+2026-09-16 11:05:01,670 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-17 00:44:42,087 | INFO     | src.recognize | Loaded model with classes: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'HELLO', 'I', 'ILOVEYOU', 'YES']
+2026-09-17 00:44:42,578 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
+2026-09-17 00:46:19,965 | INFO     | src.recognize | Loaded model with classes: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'HELLO', 'I', 'ILOVEYOU', 'YES']
+2026-09-17 00:46:20,304 | INFO     | src.landmark_extractor | LandmarkExtractor initialised (max_hands=1, det_conf=0.7, track_conf=0.6)
